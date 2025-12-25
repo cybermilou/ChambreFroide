@@ -38,7 +38,7 @@ Les éléments sont classés par catégorie, avec trois niveaux :
 
 ### Microcontrôleur
 - **MUST**
-  - ESP32 /  ATmega328P / ATtiny85 (au choix)
+  - ESP32 /  ATmega328P  (au choix, préférence pour le ATmega)
 - **SHOULD**
   - ESP32 (si journalisation ou extensions futures)
 
@@ -127,6 +127,7 @@ Les éléments sont classés par catégorie, avec trois niveaux :
 - Dominos ou WAGO
 - Borniers DIN
 - Repères de fils
+- support DIP-28 pour ATmega
 
 ### SHOULD
 - Goulottes
@@ -147,6 +148,22 @@ Les éléments sont classés par catégorie, avec trois niveaux :
 ### SHOULD
 - Etiquettes de sécurité
 - Schéma électrique imprimé dans le coffret
+
+---
+
+## 14. Electronique
+
+- Carte pour PCB
+- SSD1306 (écran)
+- Résistances 10kΩ (RESET pull-up)
+- Résistances 4.7kΩ (pull_down)
+- Résistances 330Ω (LED)
+- LED
+- Diodes de roue libre
+- Connecteurs entrées/sorties
+- Header ISP 2×3 (cable programmation)
+- Boutons poussoir (changement mode ete/hiver)
+- ÉBoutons bascules (marche arret)
 
 ---
 
